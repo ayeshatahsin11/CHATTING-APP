@@ -263,6 +263,9 @@ const Signup = () => {
                     } rounded-lg px-4 py-3.5 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-200`}
                     autoComplete="off"
                   />
+                  <button className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-400 transition-colors">
+                    Hi
+                  </button>
                 </div>
                 {error.name && (
                   <p className="text-red-400 text-xs mt-1.5">{error.name}</p>
@@ -289,6 +292,9 @@ const Signup = () => {
                       error.email ? "border-red-500/50" : "border-[#2a2a3a]"
                     } rounded-lg px-4 py-3.5 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-200`}
                   />
+                  <button className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-400 transition-colors">
+                    Hi
+                  </button>
                 </div>
                 {error.email && (
                   <p className="text-red-400 text-xs mt-1.5">{error.email}</p>
@@ -354,6 +360,9 @@ const Signup = () => {
                     } rounded-lg px-4 py-3.5 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-200`}
                     autoComplete="off"
                   />
+                  <button className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-400 transition-colors">
+                    Hi
+                  </button>
                 </div>
                 {error.number && (
                   <p className="text-red-400 text-xs mt-1.5">{error.number}</p>
@@ -423,7 +432,7 @@ const Signup = () => {
                   to="/signin"
                   className="text-purple-400 hover:text-purple-300 font-medium transition-colors"
                 >
-                  Login
+                  Sign in
                 </Link>
               </p>
             </form>
